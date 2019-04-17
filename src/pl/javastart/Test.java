@@ -5,7 +5,7 @@ class Test {
         try {
             Foo.foo();
         } catch(Throwable e) {
-            System.out.println("B");
+            System.out.print("B");
         }
         System.out.println("C");
     }
