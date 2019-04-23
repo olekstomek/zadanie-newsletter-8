@@ -1,13 +1,9 @@
 package pl.javastart;
 
 class Foo {
-
     static {
-        try {
-            throw new Throwable();
-        } catch (Throwable throwable) {
-            System.out.print("");
-        }
+        String string = "String";
+        Integer.parseInt(string);
     }
 
     static void foo() {
