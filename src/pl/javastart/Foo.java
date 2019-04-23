@@ -2,8 +2,7 @@ package pl.javastart;
 
 class Foo {
     static {
-        String string = "String";
-        Integer.parseInt(string);
+        Integer.parseInt("String");
     }
 
     static void foo() {
